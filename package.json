@@ -1,0 +1,11 @@
+{
+  "name": "seniore.ru",
+  "version": "0.0.1",
+  "author": "Shuhrat Shadmonkulov",
+  "description": "Seniore.ru source files",
+  "homepage": "http://www.seniore.ru",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shuhrat/seniore.git"
+  }
+}
