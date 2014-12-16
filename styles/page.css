@@ -1,0 +1,203 @@
+html,
+.b-page
+{
+    min-height: 100%;
+
+    font-family: "Trebuchet MS","Helvetica","Nimbus Sans L",sans-serif;
+    font-size: 13px;
+    line-height: 1.154;
+}
+
+.b-page
+{
+    /*display: table;*/
+}
+
+.b-page__stripe
+{
+    height: 38px;
+
+    background-color: #f1f1f1;
+
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 2px solid #333333;
+}
+
+.b-header
+{
+    position: relative;
+
+    top: -41px;
+
+    width: 952px;
+    height: 113px;
+
+    margin: 0 auto;
+}
+
+.b-header__menu
+{
+    text-align: right;
+}
+
+.b-menu_horizontal_yes,
+.b-menu_horizontal_yes .b-menu__item,
+.b-menu_horizontal_yes .b-menu__item-link
+{
+    display: inline-block;
+}
+
+.b-menu__item-link
+{
+    color: #5c5c5c;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.b-menu__item-link:hover
+{
+    color: #f02f81;
+}
+
+.b-menu_horizontal_yes .b-menu__item-link
+{
+    border-top: 2px solid #333333;
+    margin-left: 31px;
+    padding: 10px 5px 6px;
+}
+
+.b-menu_horizontal_yes .b-menu__item-link:hover,
+.b-menu_horizontal_yes .b-menu__item-link_active_yes
+{
+    border-top-color: #f02f81;
+}
+
+
+/*-------------------------*/
+
+.b-header__contacts
+{
+    position: relative;
+}
+
+.b-contact {
+    display: table;
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+}
+
+.b-contact__social
+{
+    display: table-cell;
+    vertical-align: top;
+
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 50px;
+
+    background: url("../images/like.png") no-repeat;
+}
+
+.b-social
+{
+    display: inline-block;
+}
+
+.b-social__item
+{
+    display: inline-block;
+
+    background: url("//yastatic.net/share/static/b-share-icon.png") no-repeat scroll 0 99px rgba(0, 0, 0, 0);
+
+    height: 16px;
+    width: 16px;
+}
+
+.b-social__item a
+{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.b-social__item_type_vk
+{
+    background-position: 0 0;
+}
+
+.b-social__item_type_facebook
+{
+    background-position: 0 -68px;
+}
+
+.b-social__item_type_instagramm
+{
+    background-position: 0 -34px;
+}
+
+.b-social__item_type_twitter {
+    background-position: 0 -51px;
+}
+
+.b-contact__social-all
+{
+    color: #999;
+    font-size: 11px;
+    font-style: italic;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.b-contact__tel
+{
+    display: table-cell;
+    vertical-align: top;
+
+    height: 60px;
+    padding-left: 45px;
+
+    background: url("../images/phone.png") no-repeat;
+}
+
+.b-contact__tel_number
+{
+    color: #333333;
+    display: block;
+    font-size: 19px;
+    text-decoration: none;
+
+}
+
+.b-contact__tel_number span {
+    color: #999999;
+}
+
+.b-contact__tel_recall {
+    border-bottom: 1px dashed #999999;
+    color: #999999;
+    font-size: 11px;
+    font-style: italic;
+    margin-left: 10px;
+    padding-bottom: 0;
+    text-decoration: none;
+}
+
+
+.b-contact__separator
+{
+    display: table-cell;
+    color: #999;
+    font-size: 44px;
+    font-weight: lighter;
+    height: 40px;
+    padding: 0px 5px 0 15px;
+}
